@@ -52,3 +52,4 @@ sns.set(font_scale=0.75)
 ax = sns.heatmap(data=sorted(figure[0:30], reverse=True), xticklabels=char_to_idx.keys(), yticklabels=used_lines)
 plt.yticks(rotation=0)
 plt.show(block=True)
+
